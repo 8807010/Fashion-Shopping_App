@@ -1,7 +1,11 @@
+import Header from './components/header/Header.jsx';
+import Promo from './components/promo/Promo.jsx';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
+      <Promo />
     </div>
   );
 }

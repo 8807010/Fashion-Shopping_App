@@ -5,7 +5,9 @@
   &__list {
     display: flex;
     align-items: center;
-    column-gap: 120px;
+    justify-content: space-around;
+    gap: 30px;
     mix-blend-mode: multiply;
+    flex-wrap: wrap;
   }
 }

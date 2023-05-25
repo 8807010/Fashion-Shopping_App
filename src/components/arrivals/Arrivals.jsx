@@ -14,11 +14,11 @@ export default function Arrivals() {
         <div className="arrivals__header">
           <h2 className="subtitle">NEW ARRIVALS</h2>
         </div>
-        <div className="arrivals__cards">
+        <ul className="arrivals__cards">
           <Card title="Hoodies & Sweetshirt" img={cat01Img} />
           <Card title="Coats & Parkas" img={cat02Img} />
           <Card title="Tees & T-Shirt" img={cat03Img} />
-        </div>
+        </ul>
       </div>
     </section>
   )

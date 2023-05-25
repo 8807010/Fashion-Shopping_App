@@ -6,7 +6,17 @@
   margin-bottom: 100px;
 }
 .arrivals__cards {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 1230px) {
+  .arrivals__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .arrivals__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

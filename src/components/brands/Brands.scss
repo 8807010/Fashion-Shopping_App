@@ -10,4 +10,8 @@
     mix-blend-mode: multiply;
     flex-wrap: wrap;
   }
+
+  &__link {
+    display: inline-block;
+  }
 }

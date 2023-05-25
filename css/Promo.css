@@ -69,3 +69,14 @@
   right: -100px;
   background-color: var(--yellow);
 }
+.highlight--payday::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -6px;
+  bottom: 10px;
+  left: -20px;
+  right: -30px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}

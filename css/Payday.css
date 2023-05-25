@@ -1,0 +1,50 @@
+.payday {
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+.payday__content {
+  display: flex;
+}
+.payday__title {
+  font-weight: 900;
+  font-size: 112px;
+  line-height: 1.23;
+  margin-bottom: 33px;
+}
+.payday__text {
+  padding-top: 140px;
+  padding-left: 62px;
+  max-width: 670px;
+}
+.payday__desc {
+  font-weight: 500;
+  font-size: 36.0402px;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  color: #231300;
+  margin-bottom: 38px;
+}
+.payday__apply {
+  font-weight: 400;
+  font-size: 36.0402px;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  margin-bottom: 51px;
+}
+.payday__btn {
+  display: inline-block;
+  padding: 26px 51px;
+  background: #000000;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -0.05em;
+  color: #fff;
+}
+
+time {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+}

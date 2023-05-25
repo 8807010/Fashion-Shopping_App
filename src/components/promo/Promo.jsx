@@ -1,5 +1,5 @@
 import React from 'react';
-import './Promo.scss'
+import './Promo.scss';
 import promoImg from './../../img/images/header-img.jpg';
 
 export default function Promo() {

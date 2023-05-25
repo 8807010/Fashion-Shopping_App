@@ -13,12 +13,12 @@ export default function Brands() {
     <section className="brands">
       <div className="container">
         <ul className="brands__list">
-          <li><a href="#!"><img src={hm} alt="" /></a></li>
-          <li><a href="#!"><img src={obey} alt="" /></a></li>
-          <li><a href="#!"><img src={shopify} alt="" /></a></li>
-          <li><a href="#!"><img src={lacoste} alt="" /></a></li>
-          <li><a href="#!"><img src={levis} alt="" /></a></li>
-          <li><a href="#!"><img src={amazon} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={hm} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={obey} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={shopify} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={lacoste} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={levis} alt="" /></a></li>
+          <li className="brands__item"><a className="brands__link" href="#!"><img src={amazon} alt="" /></a></li>
         </ul>
       </div>
     </section>

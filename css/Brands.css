@@ -10,3 +10,6 @@
   mix-blend-mode: multiply;
   flex-wrap: wrap;
 }
+.brands__link {
+  display: inline-block;
+}

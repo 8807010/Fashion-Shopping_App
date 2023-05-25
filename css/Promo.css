@@ -80,3 +80,15 @@
   background-color: #fff;
   transform: rotate(-2deg);
 }
+@media (max-width: 1480px) {
+  .highlight--payday::before {
+    right: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .highlight--payday::before {
+    right: 32px;
+    bottom: 0;
+    top: -4px;
+  }
+}

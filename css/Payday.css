@@ -1,8 +1,18 @@
 .payday {
+  margin-bottom: 300px;
   background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
 }
 .payday__content {
   display: flex;
+  justify-content: space-around;
+  column-gap: 62px;
+  overflow: hidden;
+}
+@media (max-width: 1480px) {
+  .payday__content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 .payday__title {
   font-weight: 900;
@@ -10,10 +20,32 @@
   line-height: 1.23;
   margin-bottom: 33px;
 }
+@media (max-width: 1480px) {
+  .payday__title {
+    font-size: 70px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .payday__title {
+    font-size: 40px;
+  }
+}
+.payday__img img {
+  object-fit: cover;
+  height: 100%;
+}
 .payday__text {
   padding-top: 140px;
-  padding-left: 62px;
   max-width: 670px;
+}
+@media (max-width: 1480px) {
+  .payday__text {
+    padding-top: 70px;
+    max-width: 100%;
+  }
 }
 .payday__desc {
   font-weight: 500;
@@ -23,12 +55,24 @@
   color: #231300;
   margin-bottom: 38px;
 }
+@media (max-width: 768px) {
+  .payday__desc {
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+}
 .payday__apply {
   font-weight: 400;
   font-size: 36.0402px;
   line-height: 1.45;
   letter-spacing: -0.02em;
   margin-bottom: 51px;
+}
+@media (max-width: 768px) {
+  .payday__apply {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
 }
 .payday__btn {
   display: inline-block;
@@ -41,10 +85,29 @@
   letter-spacing: -0.05em;
   color: #fff;
 }
+@media (max-width: 768px) {
+  .payday__btn {
+    display: block;
+    font-size: 24px;
+  }
+}
+.payday__btn-wrapper {
+  margin-bottom: 155px;
+}
+@media (max-width: 1480px) {
+  .payday__btn-wrapper {
+    margin-bottom: 30px;
+  }
+}
 
 time {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.45;
   letter-spacing: 0.02em;
+}
+@media (max-width: 768px) {
+  time {
+    font-size: 24px;
+  }
 }

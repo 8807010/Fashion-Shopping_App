@@ -88,5 +88,15 @@
     right: -30px;
     background-color: #fff;
     transform: rotate(-2deg);
+
+    @media (max-width:1480px) {
+      right: 50px;
+    }
+
+    @media (max-width:768px) {
+      right: 32px;
+      bottom: 0;
+      top: -4px;
+    }
   }
 }

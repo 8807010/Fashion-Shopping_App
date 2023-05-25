@@ -2,13 +2,30 @@
   padding-top: 120px;
   padding-bottom: 143px;
 }
+@media (max-width: 1230px) {
+  .arrivals {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+}
 .arrivals__header {
   margin-bottom: 100px;
+}
+@media (max-width: 1230px) {
+  .arrivals__header {
+    margin-bottom: 50px;
+  }
 }
 .arrivals__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  column-gap: 131px;
+  row-gap: 30px;
+}
+@media (max-width: 1700px) {
+  .arrivals__cards {
+    column-gap: 30px;
+  }
 }
 @media (max-width: 1230px) {
   .arrivals__cards {

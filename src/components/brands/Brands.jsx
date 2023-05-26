@@ -1,5 +1,5 @@
 import React from 'react';
-import './Brands.scss'
+import './Brands.scss';
 
 import hm from './../../img/brands/HM.png'
 import obey from './../../img/brands/Obey.png'

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Promo.scss';
-import promoImg from './../../img/images/header-img.jpg';
+import promoImg from './../../img/images/header-img.png';
 
 export default function Promo() {
   return (

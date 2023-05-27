@@ -6,6 +6,7 @@
     column-gap: 30px;
     align-items: center;
     justify-content: space-between;
+    gap: 60px;
   }
 
   &__logo {
@@ -19,23 +20,60 @@
       line-height: 1.5;
       letter-spacing: 0.03em;
       text-transform: uppercase;
+
+      @media (max-width:600px) {
+        display: none;
+      }
     }
   }
 
   &__nav {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 22px;
     line-height: 1.5;
     letter-spacing: 0.01em;
 
-    & ul {
-      display: flex;
-      column-gap: 65px;
-      align-items: center;
+    & a {
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+
+  &__nav-list {
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+
+    @media (max-width:1200px) {
+      display: none;
     }
 
     & a {
       color: var(--textColor);
+      transition: color 0.3s ease-in-out;
+      position: relative;
+
+      &::after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--yellow);
+        content: "";
+        transition: width .3s ease-out, opacity .3s ease-out;
+      }
+
+      &:hover {
+        color: var(--yellow);
+
+        &::after {
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -49,5 +87,113 @@
     line-height: 1.5;
     letter-spacing: -0.03em;
     color: #fff;
+    margin-left: 50px;
+
+    @media (max-width:768px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.header__nav {
+  position: relative;
+
+  & .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 160px;
+    top: 18px;
+    display: none;
+
+    @media (max-width:1200px) {
+      display: block;
+    }
+
+    @media (max-width:768px) {
+      right: 140px;
+    }
+  }
+}
+
+/* Position and sizing of burger button */
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #000;
+}
+
+/* Position and sizing of clickable cross button */
+
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  top: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+.menu-item {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  // background: rgba(0, 0, 0, 0.3);
+  display: none !important;
+}
+
+.bm-cross {
+  height: 30px !important;
+}
+
+.bm-cross-button {
+  height: 40px !important;
+  right: 22px !important;
+  top: 12px !important;
+  width: 36px !important;
+
+  & button {
+    top: 3px !important;
+    left: 5px !important;
   }
 }

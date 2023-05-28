@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Fashion-Shopping_App/static/css/main.9d13eb33.css",
+    "main.js": "/Fashion-Shopping_App/static/js/main.5b0a5cfc.js",
+    "static/media/header-img.png": "/Fashion-Shopping_App/static/media/header-img.ef631f908f8b14a73757.png",
+    "static/media/cat-03.jpg": "/Fashion-Shopping_App/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/cat-01.jpg": "/Fashion-Shopping_App/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/payday.png": "/Fashion-Shopping_App/static/media/payday.d14a3e8387e667065080.png",
+    "static/media/cat-02.jpg": "/Fashion-Shopping_App/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/Shopify.png": "/Fashion-Shopping_App/static/media/Shopify.b4131342ebf309c24258.png",
+    "static/media/Amazon.png": "/Fashion-Shopping_App/static/media/Amazon.7897112af9316cea076c.png",
+    "static/media/logo.svg": "/Fashion-Shopping_App/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "index.html": "/Fashion-Shopping_App/index.html",
+    "static/media/arrow.svg": "/Fashion-Shopping_App/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/decor-yellow.svg": "/Fashion-Shopping_App/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.9d13eb33.css.map": "/Fashion-Shopping_App/static/css/main.9d13eb33.css.map",
+    "main.5b0a5cfc.js.map": "/Fashion-Shopping_App/static/js/main.5b0a5cfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d13eb33.css",
+    "static/js/main.5b0a5cfc.js"
+  ]
+}

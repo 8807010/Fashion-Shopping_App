@@ -1,4 +1,4 @@
-.arrivals {
+.favourite {
   padding-top: 120px;
   padding-bottom: 143px;
 
@@ -25,20 +25,13 @@
 
   &__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 131px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 47px;
     row-gap: 30px;
 
-    @media (max-width:1700px) {
-      column-gap: 30px;
-    }
-
     @media (max-width:1230px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width:768px) {
       grid-template-columns: repeat(1, 1fr);
+      column-gap: 20px;
     }
   }
 }

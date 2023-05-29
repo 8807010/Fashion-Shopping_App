@@ -47,6 +47,11 @@
   object-fit: cover;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .card__img {
+    margin-bottom: 14px;
+  }
+}
 
 .card__body {
   display: flex;

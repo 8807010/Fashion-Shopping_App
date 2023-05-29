@@ -1,49 +1,40 @@
-.arrivals {
+.favourite {
   padding-top: 120px;
   padding-bottom: 143px;
 }
 @media (max-width: 1230px) {
-  .arrivals {
+  .favourite {
     padding-top: 70px;
     padding-bottom: 60px;
   }
 }
 @media (max-width: 768px) {
-  .arrivals {
+  .favourite {
     padding-bottom: 30px;
   }
 }
-.arrivals__header {
+.favourite__header {
   margin-bottom: 100px;
 }
 @media (max-width: 1230px) {
-  .arrivals__header {
+  .favourite__header {
     margin-bottom: 40px;
   }
 }
 @media (max-width: 500px) {
-  .arrivals__header {
+  .favourite__header {
     margin-bottom: 20px;
   }
 }
-.arrivals__cards {
+.favourite__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 131px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 47px;
   row-gap: 30px;
 }
-@media (max-width: 1700px) {
-  .arrivals__cards {
-    column-gap: 30px;
-  }
-}
 @media (max-width: 1230px) {
-  .arrivals__cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 768px) {
-  .arrivals__cards {
+  .favourite__cards {
     grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
   }
 }

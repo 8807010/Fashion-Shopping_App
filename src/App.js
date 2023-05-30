@@ -4,6 +4,7 @@ import Header from './components/header/Header.jsx';
 import Payday from './components/payday/Payday.jsx';
 import Promo from './components/promo/Promo.jsx';
 import Favourite from './components/favourite/Favourite.jsx';
+import Application from './components/application/Application.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Arrivals />
       <Payday />
       <Favourite />
+      <Application />
     </div>
   );
 }

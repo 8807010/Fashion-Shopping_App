@@ -5,6 +5,7 @@ import Payday from './components/payday/Payday.jsx';
 import Promo from './components/promo/Promo.jsx';
 import Favourite from './components/favourite/Favourite.jsx';
 import Application from './components/application/Application.jsx';
+import Community from './components/community/Community.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Payday />
       <Favourite />
       <Application />
+      <Community />
     </div>
   );
 }

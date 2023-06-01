@@ -30,11 +30,54 @@ export default function Footer() {
                 <a className="footer__social-link" href="#!"><img src={linkedin} alt="" /></a>
               </li>
             </ul>
-
-
           </div>
-          <div className="footer__right">
 
+          <div className="footer__right">
+            <ul className="footer__list">
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Company</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">About</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Contact us</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Support</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Careers</a>
+              </li>
+            </ul>
+            <ul className="footer__list">
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Quick Link</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Share Location</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Orders Tracking</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Size Guide</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">FAQs</a>
+              </li>
+            </ul>
+            <ul className="footer__list">
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Legal</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Terms & conditions</a>
+              </li>
+              <li className="footer__item">
+                <a href="#!" className="footer__link">Privacy Policy</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

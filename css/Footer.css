@@ -4,13 +4,38 @@
   background-color: #000000;
   color: #8E8E8E;
 }
+@media (max-width: 968px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+}
 .footer__content {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+@media (max-width: 1480px) {
+  .footer__content {
+    flex-direction: column-reverse;
+  }
 }
 .footer__left {
   max-width: 415px;
+}
+@media (max-width: 1480px) {
+  .footer__left {
+    display: flex;
+    gap: 50px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 968px) {
+  .footer__left {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .footer__logo {
   font-weight: 900;
@@ -21,12 +46,29 @@
   margin-bottom: 32px;
   display: inline-block;
 }
+@media (max-width: 1480px) {
+  .footer__logo {
+    flex: 0 1 33.333%;
+    margin: 0;
+  }
+}
 .footer__desc {
   font-weight: 400;
   font-size: 20px;
   line-height: 2;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+}
+@media (max-width: 1480px) {
+  .footer__desc {
+    flex: 0 0 33.333%;
+    margin: 0;
+  }
+}
+@media (max-width: 968px) {
+  .footer__desc {
+    text-align: center;
+  }
 }
 .footer__social-link {
   display: block;
@@ -38,6 +80,12 @@
 .footer__socials-list {
   display: flex;
   gap: 14px;
+  flex: 0 0 33.333%;
+}
+@media (max-width: 1480px) {
+  .footer__socials-list {
+    justify-content: flex-end;
+  }
 }
 .footer__link {
   display: inline-block;
@@ -63,9 +111,26 @@
 .footer__right {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1480px) {
+  .footer__right {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 968px) {
+  .footer__right {
+    row-gap: 85px;
+    column-gap: 100px;
+  }
 }
 .footer__list {
   width: 270px;
+}
+@media (max-width: 1480px) {
+  .footer__list {
+    width: auto;
+  }
 }
 .footer__item {
   font-weight: 400;
@@ -75,6 +140,11 @@
 }
 .footer__item:not(:last-child) {
   margin-bottom: 32px;
+}
+@media (max-width: 968px) {
+  .footer__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 .footer__item:first-child {
   color: #D9D9D9;

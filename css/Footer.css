@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 119px;
+  padding-bottom: 147px;
+  background-color: #000000;
+  color: #8E8E8E;
+}
+.footer__left {
+  max-width: 415px;
+}
+.footer__logo {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  display: inline-block;
+}
+.footer__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+.footer__social-link {
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.footer__social-link:hover {
+  transform: scale(1.17);
+}
+.footer__socials-list {
+  display: flex;
+  gap: 14px;
+}

@@ -6,6 +6,7 @@ import Promo from './components/promo/Promo.jsx';
 import Favourite from './components/favourite/Favourite.jsx';
 import Application from './components/application/Application.jsx';
 import Community from './components/community/Community.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Favourite />
       <Application />
       <Community />
+      <Footer />
     </div>
   );
 }

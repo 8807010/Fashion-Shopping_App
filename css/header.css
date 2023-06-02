@@ -71,7 +71,7 @@
 }
 .header__nav-btn,
 .header a.header__nav-btn {
-  padding: 13px 22px 17px;
+  padding: 17px 22px;
   background-color: #000;
   border-radius: 7px;
   font-weight: 500;
@@ -80,6 +80,11 @@
   letter-spacing: -0.03em;
   color: #fff;
   margin-left: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+.header__nav-btn:hover,
+.header a.header__nav-btn:hover {
+  background-color: #877b34;
 }
 @media (max-width: 768px) {
   .header__nav-btn,
